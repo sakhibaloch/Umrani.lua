@@ -691,162 +691,345 @@ end
 function B4()
 gg.alert("BYPASS V4 ( @UMRANICHANNELS ) ...")
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("620137442967552;564058054983680", gg.TYPE_QWORD, nil, nil, nil, nil)
-gg.refineNumber("620137442967552", gg.TYPE_QWORD)
-gg.getResults(50000)
-gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("49,159;42;4:14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.setVisible(true)
+gg.alert("ᴠᴀʟᴜᴇs ɴᴏᴛ ғᴏᴜɴᴅ ʀᴇsᴛᴀʀᴛ ɢᴀᴍᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ⛔")
+os.exit()
+gg.processKill()
+else
+gg.searchNumber("42", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+probolte = gg.getResultCount()
+jz = gg.getResults(probolte)
+for i = 1, probolte do
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936088,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936084,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936080,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936084,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936076,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936072,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936068,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936064,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936104,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936108,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936112,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936116,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936120,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936124,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936128,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+ gg.addListItems({
+ [1] = {
+  ['address'] = 3156936144,
+  ['flags'] = 4,
+  ['freeze'] = true,
+  ['freezeType'] = 0,
+  ['value'] = 0,
+  }
+})
+end
+end
+gg.clearList()
+gg.clearResults()
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("578351706144768;564058054983680", gg.TYPE_QWORD)
-gg.refineNumber("578351706144768", gg.TYPE_QWORD)
+gg.searchNumber("620,137,442,967,552;564,058,054,983680",gg.TYPE_QWORD)
+gg.refineNumber("620,137,442,967,552",gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.editAll("288,233,678,981,562,368",gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("565157566611456;572854148005888", gg.TYPE_QWORD, nil, nil, nil, nil)
-gg.refineNumber("565157566611456", gg.TYPE_QWORD)
+gg.searchNumber("635,530,605,756,416;564,058,054,983680",gg.TYPE_QWORD)
+gg.refineNumber("635,530,605,756,416",gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.editAll("288,233,678,981,562,368",gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("134658;131330", gg.TYPE_DWORD)
-gg.refineNumber("134658", gg.TYPE_DWORD)
+gg.searchNumber("582,749,752,655,872;564,058,054,983,680",gg.TYPE_QWORD)
+gg.refineNumber("582,749,752,655,872",gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("67109633", gg.TYPE_DWORD)
+gg.editAll("288,233,678,981,562,368",gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("144387;131330", gg.TYPE_DWORD)
-gg.refineNumber("144387", gg.TYPE_DWORD)
+gg.searchNumber("578,351,706,144,768;564,058,054,983680",gg.TYPE_QWORD)
+gg.refineNumber("578,351,706,144,768",gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("67109633", gg.TYPE_DWORD)
+gg.editAll("288,233,678,981,562,368",gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("196864;16842753", gg.TYPE_DWORD)
-gg.refineNumber("196864", gg.TYPE_DWORD)
+gg.searchNumber("565,157,566,611,456;572,854,148,005,888",gg.TYPE_QWORD)
+gg.refineNumber("565,157,566,611,456",gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("67109633", gg.TYPE_DWORD)
+gg.editAll("288,233,678,981,562,368",gg.TYPE_QWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber(";Remaining", gg.TYPE_WORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll(";ALEX", gg.TYPE_WORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("566,257,078,239,232;564,058,054,983,680",gg.TYPE_QWORD)
+gg.refineNumber("566,257,078,239,232",gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288,233,678,981,562,368",gg.TYPE_QWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber(";Eliminations", gg.TYPE_WORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll(";YT", gg.TYPE_WORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("579,451,217,772,544;564,058,054,983,680",gg.TYPE_QWORD)
+gg.refineNumber("579,451,217,772,544",gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288,233,678,981,562,368",gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("577,252,194,516,992;288,233,678,981,562,368",gg.TYPE_QWORD)
+gg.refineNumber("577,252,194,516,992",gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288,233,678,981,562,368",gg.TYPE_QWORD)
 gg.clearResults()
 gg.alert("BYPASS V4 ( @UMRANICHANNELS ) ✓")
 end 
 function B5()
 gg.alert("BYPASS V5 ( @UMRANICHANNELS ) ...")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.clearResults()
+gg.setVisible(false)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("620137442967552;564058054983680", gg.TYPE_QWORD)
-gg.refineNumber("620137442967552", gg.TYPE_QWORD)
+gg.searchNumber("620,137,442,967,552;564,058,054,983680", gg.TYPE_QWORD)
+gg.refineNumber("620,137,442,967,552", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("635,530,605,756,416;564,058,054,983680", gg.TYPE_QWORD)
+gg.refineNumber("635,530,605,756,416", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setVisible(false)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("572854148005888;582749752655872", gg.TYPE_QWORD)
-gg.refineNumber("572854148005888", gg.TYPE_QWORD)
+gg.searchNumber("562,949,953,421,312;281,479,271,677,952", gg.TYPE_QWORD)
+gg.refineNumber("562,949,953,421,312", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setVisible(false)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("579451217772544;564058054983680", gg.TYPE_QWORD)
-gg.refineNumber("579451217772544", gg.TYPE_QWORD)
+gg.searchNumber("566,257,078,239,232;288,233,678,981,562,368", gg.TYPE_QWORD)
+gg.refineNumber("566,257,078,239,232", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setVisible(false)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("303473799200768;282587373240320", gg.TYPE_QWORD)
-gg.refineNumber("303473799200768", gg.TYPE_QWORD)
+gg.searchNumber("572,854,148,005,888;564,058,054,983,680", gg.TYPE_QWORD)
+gg.refineNumber("572,854,148,005,888", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setVisible(false)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
-gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+gg.searchNumber("582,749,752,655,872;564,058,054,983,680", gg.TYPE_QWORD)
+gg.refineNumber("582,749,752,655,872", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("648523848194457600;288233678981562368", gg.TYPE_QWORD)
-gg.refineNumber("648523848194457600", gg.TYPE_QWORD)
+gg.searchNumber("134,914;133,890", gg.TYPE_DWORD)
+gg.refineNumber("134,914", gg.TYPE_DWORD)
 gg.getResults(50000)
-gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.editAll("84,149,249", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("196864;16842753", gg.TYPE_DWORD)
-gg.refineNumber("196864", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("4,096;135,682", gg.TYPE_DWORD)
+gg.refineNumber("4,096", gg.TYPE_DWORD)
 gg.getResults(50000)
-gg.editAll("67109969", gg.TYPE_DWORD)
+gg.editAll("84,149,249", gg.TYPE_DWORD)
+gg.setVisible(false)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("131842;133634", gg.TYPE_DWORD)
-gg.refineNumber("131842", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132,105;66,057", gg.TYPE_DWORD)
+gg.refineNumber("132,105", gg.TYPE_DWORD)
 gg.getResults(50000)
-gg.editAll("67109377", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("134658;144387", gg.TYPE_DWORD)
-gg.refineNumber("134658", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("134914;133378", gg.TYPE_DWORD)
-gg.refineNumber("134914", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
-gg.searchNumber("134146;131330", gg.TYPE_DWORD)
-gg.refineNumber("134146", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("135682", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������70114����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������7��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������2����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������38", gg.TYPE_DWORD, nil, nil, nil, nil)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1601����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������59360����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������0", gg.TYPE_DWORD, nil, nil, nil, nil)
-gg.getResults(16384)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������160����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1466991", gg.TYPE_DWORD, nil, nil, nil, nil)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1868����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������71946����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������0", gg.TYPE_DWORD, nil, nil, nil, nil)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+gg.editAll("84,149,249", gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_CODE_APP)
+gg.searchNumber(":tss_sdk_rcv_anti_data", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_BYTE)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_CODE_APP)
-gg.searchNumber(":l_report", gg.TYPE_BYTE)
-gg.getResults(50000)
-gg.editAll(":", gg.TYPE_BYTE)
+gg.searchNumber(":tss_del_report_data", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_BYTE)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_CODE_APP)
-gg.searchNumber(":get_report", gg.TYPE_BYTE)
-gg.getResults(50000)
-gg.editAll(":", gg.TYPE_BYTE)
+gg.searchNumber(":TssSDKGetReportData", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_BYTE)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_CODE_APP)
-gg.searchNumber(":AntiCheatData", gg.TYPE_BYTE)
-gg.getResults(50000)
-gg.editAll(":", gg.TYPE_BYTE)
+gg.searchNumber(":TssSDKDelReportData", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_BYTE)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_CODE_APP)
-gg.searchNumber(":asia.csoversea.mbgame.anticheatexpert.com", gg.TYPE_BYTE)
-gg.getResults(50000)
-gg.editAll(":", gg.TYPE_BYTE)
+gg.searchNumber(":tss_get_report_data", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber(";Remaining", gg.TYPE_WORD)
+gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll(";CN", gg.TYPE_WORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber(";Elimination", gg.TYPE_WORD)
+gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll(";PAID", gg.TYPE_WORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber(";Finished", gg.TYPE_WORD)
+gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll(";PAID", gg.TYPE_WORD)
 gg.clearResults()
 gg.alert("BYPASS V5 ( @UMRANICHANNELS ) ✓")
 end 
