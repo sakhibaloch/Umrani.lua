@@ -1,7 +1,7 @@
 ------Warning Don't use this decrypted script and cracked script give You 10 year ban in loby--------
 -------LIBASE-FUNCTIONS-------
 
-local Passwords = {"MrSin20D","ull","ull","ull"} 
+local Passwords = {"MrSin20D","ullsusanth10D@susanth.com","ull","ull"} 
  
 local Menu = gg.prompt({"Select Password :"},nil,{"text"})
  
