@@ -1,7 +1,7 @@
 ------Warning Don't use this decrypted script and cracked script give You 10 year ban in loby--------
 -------LIBASE-FUNCTIONS-------
 
-local Passwords = {"MrSin20D","ullsusanth10D@susanth.com","ull","ull"} 
+local Passwords = {"Umrani30Dlll8sep","ull","ull","ull"} 
  
 local Menu = gg.prompt({"Select Password :"},nil,{"text"})
  
@@ -98,370 +98,247 @@ end
 function logo()
 gg.alert("logo bypass ( @UMRANICHANNELS ) ...")
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5B4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5B0,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5AC,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5A8,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5A4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5D0,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5CC,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5C8,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5C4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5B8,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5E8,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5E4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5DC,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5D8,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5D4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F604,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F600,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5F8,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5F4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F5EC,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F62C,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F628,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F620,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F614,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F60C,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F64C,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F644,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F640,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F63C,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F638,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35FEC8,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F660,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F658,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F654,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35F650,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35FFE0,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35FFDC,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35FFD8,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35FFD4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35FFC4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x35FFE4,4,0)
-setvalue(gg.getRangesList('libanogs.so')[1].start+0x360F38,4,0)
-
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x39076C 
+py=0x228B0270
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390768 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D8E
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390764 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D90
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390760 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x39075C 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D91
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x39078C 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D92
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390788 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D93
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390784 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D94
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390780 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D95
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390770 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907AC 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D96
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907AC 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D97
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907A8 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D98
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390794 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D99
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390790 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D9A
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907C0 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907B8 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56C8D98
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907BC 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56E6B88
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907B4 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56E6B8C
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907B0 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56E6B90
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907F8 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x56E6B94
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907DC 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907D8 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x570123F
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907D0 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x5701240
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907D4 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C7454
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390810 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C7450
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390800 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C744C
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x39080C 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x3907FC 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C7448
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390804 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C7400
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390838 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C73FC
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390834 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C73F8
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390830 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C73F4
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x39082C 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x390824 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C73A0
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3908B4 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C739C
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3908A0 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59C7398
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x39089C 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x59D4678
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390864 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC9510AC
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x39084C 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x390F30 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC952A68
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390F2C 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC9500F8
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390F1C 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC9500F9
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390F18 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC9500FA
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3908B8 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC9500FC
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390FA4 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x390FA0 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94EBEC
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390F84 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94EC08
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390F80 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC952710
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390F7C 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FEF0
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390FF8 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FF14
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390FD0 
-setvalue(so+py,4,0)so=gg.getRangesList('libUE4.so')[1].start
-py=0x390FC8 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FF20
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390FB0 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FF64
 setvalue(so+py,4,0)
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x390FA8 
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FF78
 setvalue(so+py,4,0)
-
-  so = gg.getRangesList("libanogs.so")[1].start
-  py = 213930
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 215194
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 214340
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 214760
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 214488
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 214998
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213740
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213744
-  setvalue(so + py, 16, 1.0944141E-42)
-  py = 213748
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213752
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213756
-  setvalue(so + py, 16, 1.0944141E-42)
-  py = 213760
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213764
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213768
-  setvalue(so + py, 16, 1.0944141E-42)
-  py = 213772
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213776
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213780
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213784
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213788
-  setvalue(so + py, 16, 1.0944141E-42)
-  py = 213804
-  setvalue(so + py, 16, 4.1439678E-37)
-  py = 213840
-  setvalue(so + py, 16, 1.0944141E-42)
-  setvalue(so + "0x262C76", 4, "00 00 00 00")
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FF88
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FF9C
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FFD4
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0xC94FFE0
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x63C94C
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x63C948
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x63C944
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x18D34DF4
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x18D34DF8
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x18D34E84
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x148B3AB8
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x148B3ABC
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x148B3AC0
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x148B3AC4
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x152EB21C
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x152EB220
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x152EB224
+setvalue(so+py,4,0)
+so=gg.getRangesList('libanogs.so')[1].start
+py=0x152EB228
+setvalue(so+py,4,0)
 gg.alert("logo bypass ( @UMRANICHANNELS ) ✓")
 end 
 function B1()
 gg.alert("BYPASS V1 ( @UMRANICHANNELS ) ...")
 gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("117,500,205", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("620137442967552;564058054983680", gg.TYPE_QWORD)
+gg.refineNumber("620137442967552", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("101,486,979", gg.TYPE_DWORD)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("67,168,833", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("578351706144768;564058054983680", gg.TYPE_QWORD)
+gg.refineNumber("578351706144768", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
-
 gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("84,142,917", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("577252194516992;288232579469934592", gg.TYPE_QWORD)
+gg.refineNumber("577252194516992", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("67,236,260", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("578351706144768;578351706144768", gg.TYPE_QWORD)
+gg.refineNumber("578351706144768", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("101,486,979", gg.TYPE_DWORD)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("117,697,058", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("572854148005888;620137442967552", gg.TYPE_QWORD)
+gg.refineNumber("572854148005888", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("1,879,114,032", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("576,152,682,889,216", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
-
-
-
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("94,715,446", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("575,053,171,261,440", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("101,486,979", gg.TYPE_DWORD)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("94,715,440", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("581,650,241,028,096", gg.TYPE_QWORD)
 gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
-gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("94,715,432", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
-gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("100,663,299", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("67109377", gg.TYPE_DWORD)
-gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("75,497,472", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
-gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("76,152,832", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("67109377", gg.TYPE_DWORD)
-gg.clearResults()
-
-
-
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("94,715,466", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
-gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("94,715,484", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("101,486,979", gg.TYPE_DWORD)
-gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("94,715,450", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("133890", gg.TYPE_DWORD)
-gg.clearResults()
-
-gg.clearResults()
-gg.setRanges(gg.REGION_OTHER)
-gg.searchNumber("94,715,442", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("101,486,979", gg.TYPE_DWORD)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
 
 gg.alert("BYPASS V1 ( @UMRANICHANNELS ) ✓")
