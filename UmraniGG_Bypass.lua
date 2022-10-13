@@ -318,9 +318,7 @@ gg.getResults(50000)
 gg.editAll("84,149,249",gg.TYPE_DWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_CODE_APP)
-gg.searchNumber
-
-("134,914;135,682",gg.TYPE_DWORD)                                                                                                                                                                                                                                                                                                                             --@probolte-- 
+gg.searchNumber("134,914;135,682",gg.TYPE_DWORD)                                                                                                                                                                                                                                                                                                                             --@probolte-- 
 gg.refineNumber("134,914",gg.TYPE_DWORD)
 gg.getResults(50000)
 gg.editAll("84,149,249",gg.TYPE_DWORD)
